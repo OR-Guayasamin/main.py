@@ -1,0 +1,31 @@
+# Test your FastAPI endpoints
+
+GET http://127.0.0.1:8015/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8015/hello/User
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8015/inference
+Accept: application/json
+Content-Type: application/json
+
+{
+  "item": "Pizza"
+}
+
+###
+
+POST http://127.0.0.1:8015/inference
+Accept: application/json
+Content-Type: application/json
+
+{
+  "item": "Hamburguesa"
+}
+
+
